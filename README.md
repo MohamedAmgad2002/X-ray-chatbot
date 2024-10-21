@@ -42,7 +42,7 @@ Baymax works with a combination of different medical image datasets:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MohamedAmgad2002/X-ray-chatbot.git
+   git clone https://github.com/MohamedAmgad2002/X-ray-chatbot.git && cd X-ray-chatbot
 2. install virtualenv for easier virtual enviroment creation
    ```bash
    pip install virtualenv
@@ -52,7 +52,7 @@ Baymax works with a combination of different medical image datasets:
    ```
 4. Activate environment
   ```bash
-  cd \env\Scripts\activate.bat
+  env\Scripts\activate.bat
 ```
 5. Install dependiences
 ```bash
@@ -62,10 +62,11 @@ pip install -r requirements.txt
 ```bash
 chainlit run app.py
 ```
+7. Get your Google API Key from [Link](https://aistudio.google.com/prompts/new_chat)
 
 ## How It Works
 Upload an X-ray Image:
-Users can submit medical images (X-ray, retina scans, etc.) through the interface for diagnostic analysis.
+Users can submit medical images (chest x-ray, brain ct, kidney x-ray, retina scans, etc.) through the interface for diagnostic analysis.
 
 Engage in Conversation:
 Users can ask Baymax questions related to their diagnosis, symptoms, or general health concerns. The chatbot responds in real time, providing explanations, guidance, and further assistance.
