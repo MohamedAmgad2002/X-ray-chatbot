@@ -44,22 +44,26 @@ Baymax works with a combination of different medical image datasets:
    ```bash
    git clone https://github.com/MohamedAmgad2002/X-ray-chatbot.git
 2. install virtualenv for easier virtual enviroment creation
-   '''bash
-    pip install virtualenv
+   ```bash
+   pip install virtualenv
 3. Create virtual environment
-   '''bash
-  virtualenv env
+   ```bash
+   virtualenv env
+   ```
 4. Activate environment
-  '''bash
-   cd env\Scripts\activate.bat
+  ```bash
+  cd \env\Scripts\activate.bat
+```
 5. Install dependiences
-'''bash
-   pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 6. Run App in its directory
-'''bash
-   chainlit run app.py
+```bash
+chainlit run app.py
+```
 
-##How It Works
+## How It Works
 Upload an X-ray Image:
 Users can submit medical images (X-ray, retina scans, etc.) through the interface for diagnostic analysis.
 
