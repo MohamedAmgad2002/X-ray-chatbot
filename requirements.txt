@@ -1,0 +1,8 @@
+chainlit==1.2.0
+tensorflow
+numpy
+pandas
+matplotlib
+langchain
+langchain_google_genai
+edge-tts
