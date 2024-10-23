@@ -1,8 +1,8 @@
 chainlit==1.2.0
-tensorflow
-numpy
+tensorflow==2.17.0
+numpy==1.26.4
 pandas
-matplotlib
-langchain
-langchain_google_genai
-edge-tts
+matplotlib==3.9.2
+langchain==0.3.3
+langchain_google_genai==2.0.1
+edge-tts==6.1.12
